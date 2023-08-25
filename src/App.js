@@ -12,6 +12,7 @@ function App() {
     <div className="App">
         <h1>{t('Phrase App Demo')}</h1>
         <h1>{t('Second EN Key')}</h1>
+        <h1>{t('This Is first Key from lacal')}</h1>
         <button onClick={() => changeLang('en')}>Change Lang EN</button>
         <br />
         <br />
