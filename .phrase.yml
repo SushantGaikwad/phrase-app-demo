@@ -8,6 +8,7 @@ phrase:
           file_format: i18next
           update_translations: true
           convert_emoji: true
+          autotranslate: true
   pull:
     targets:
       - file: ./public/i18n/<locale_code>.json
