@@ -1,0 +1,16 @@
+phrase:
+  access_token: e8bcb9e869f2d93a2ba298c3a158c709546f2f07efb278ba2fcf94112330a58c
+  project_id: ceca7a8e5f2fc75f8ef4317b9c254a8b
+  push:
+    sources:
+      - file: ./public/i18n/<locale_code>.json
+        params:
+          file_format: i18next
+          update_translations: true
+          convert_emoji: true
+  pull:
+    targets:
+      - file: ./public/i18n/<locale_code>.json
+        params:
+          file_format: i18next
+          convert_emoji: true
