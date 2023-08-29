@@ -6,7 +6,7 @@ phrase:
       - file: ./public/i18n/<locale_code>.json
         params:
           file_format: i18next
-          update_translations: true
+          update_translations: false
           convert_emoji: true
           autotranslate: true
   pull:
