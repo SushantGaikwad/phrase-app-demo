@@ -1,4 +1,5 @@
 {
+  "Soccer":"Football",
   "End": "End",
   "Information": "Information",
   "New": "New",
@@ -8,5 +9,4 @@
   "This Is first Key from lacal": "This Is first Key from lacal",
   "This Is first Key from lacal RU": "This Is first Key from lacal RU",
   "This is Second Key": "This is Second Key"
-  "New": ""
 }
