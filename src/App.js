@@ -1,5 +1,5 @@
-import './App.css';
-import { useTranslation } from 'react-i18next';
+import "./App.css";
+import { useTranslation } from "react-i18next";
 // import moment from 'moment/moment';
 
 function App() {
@@ -7,19 +7,22 @@ function App() {
   const changeLang = (lang) => {
     i18n.changeLanguage(lang);
     // moment.locale('ru');
-  }
+  };
   return (
     <div className="App">
-        <h1>{t('Phrase App Demo')}</h1>
-        <h1>{t('Second EN Key')}</h1>
-        <h1>{t('This Is first Key from lacal')}</h1>
-        <button onClick={() => changeLang('en')}>Change Lang EN</button>
-        <br />
-        <br />
-        <button onClick={() => changeLang('ru')}>Change Lang RU</button>
-        <br />
-        <br />
-        <button onClick={() => changeLang('fr')}>Change Lang FR</button>
+      <h1>{t("Phrase App Demo")}</h1>
+      <h1>{t("Second EN Key")}</h1>
+      <h1>{t("This Is first Key from lacal")}</h1>
+      <button onClick={() => changeLang("en")}>Change Lang EN</button>
+      <br />
+      <br />
+      <button onClick={() => changeLang("ru")}>Change Lang RU</button>
+      <br />
+      <br />
+      <button onClick={() => changeLang("fr")}>Change Lang FR</button>
+      <br />
+      <br />
+      <button onClick={() => changeLang("zh")}>Change Lang CH</button>
     </div>
   );
 }
